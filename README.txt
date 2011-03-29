@@ -1,6 +1,6 @@
 This CKAN Extension encapsulates modifications for CKAN required for the DataNL project.
 
-To install this package, from your CKAN virtualenv, run the following from your CKAN base folder (e.g. ``pyenv/``)::
+To install this package, from your CKAN virtualenv, run the following from your CKAN folder (e.g. ``pyenv/src``)::
 
  pip install -e hg+https://okfn@bitbucket.org/okfn/ckanext-datanl#egg=ckanext-datanl 
 

@@ -5,6 +5,13 @@
   xmlns:foaf="http://xmlns.com/foaf/0.1/"
   py:strip=""
   >
+
+  <py:match path="//div[@id='branding']">
+   <p id="strapline">De wegwijzer naar informatie en diensten van alle overheden</p>
+    ${select('.*')}
+  </py:match>
+
+
   <py:match path="//div[@class='menu']">
     <div class="menu">
       <ul>
@@ -13,6 +20,9 @@
       <li>${h.nav_link(c, _('Data'), controller='package', action='index', id=None)}
       </li>
     </ul>
+    <div id="bluebit">
+    </div>
+      
     </div>
   </py:match>
   <py:match path="//div[@id='top-bar-login']">
@@ -27,14 +37,8 @@
         <div id="first" class="widget-area">
           <ul class="xoxo">
             <li class="widget-container widget_text">
-            <h3 class="widget-title">About</h3>
-            <div class="textwidget">
-              <ul>
-                <li>
-                  <a href="http://data.overheid.nl/">data.overheid.nl</a>
-                </li>
-              </ul>
-            </div>
+            <h3 class="widget-title"><a href="http://data.overheid.nl/">data.overheid.nl</a></h3>
+
             </li>
           </ul>
         </div><!-- #first .widget-area -->

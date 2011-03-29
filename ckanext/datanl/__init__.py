@@ -32,7 +32,13 @@ class DataNLPlugin(SingletonPlugin):
         config['ckan.site_logo'] = "http://www.overheid.nl/presentatie/images/overheid.nl.png"
         config['ckan.site_id'] = "nl.ckan.net"
         config['lang'] = "nl"
+        config['ckan.site_url'] = ""
 
         # solr config
         config['search_backend'] = "solr"
-        config['solr_url'] = "http://eu4-int.okfn.org:8080/solr/ckan"
+        config['solr_url'] = "http://localhost:8080/solr"
+
+        # default permissions
+        config['ckan.default_roles.Package'] = \
+                 ('{"visitor": ["reader"], '
+                  '"logged_in": ["reader"]}')

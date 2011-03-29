@@ -14,10 +14,22 @@ body {
 }
 
 #header {
-    background: white;
     height: 171px;
     position: relative;
-    padding-right: 20px;
+    padding: 10px 20px 10px 0;
+    background: white;
+    /*margin-bottom: -50px;*/
+}
+
+p#strapline {
+ padding: 0 0 0 12px;
+ color: #6D7F97;
+ font-size: 11px; 
+ margin: 0;
+}
+
+#site-title {
+ padding-left: 6px;
 }
 
 #access {
@@ -26,11 +38,16 @@ body {
     background: black;
     border: none;
     border-top: 11px #E67C00 solid;
+    border-color: #FF8A00;
 }
 
 .menu {
     height: 30px;
     margin-left: 0!important;
+}
+
+.menu ul {
+ padding-left: 0;
 }
 
 .menu li a.active, .menu li a.active:hover {
@@ -44,12 +61,23 @@ body {
     color: #fff;
 }
 
+#bluebit {
+ top: 30px;
+ position: absolute;
+ height: 58px;
+ background: #75899F url(http://www.overheid.nl/presentatie/css/images/header.png) 0 0;
+ color: white;
+ width: 940px;
+}
+
 #main {
 background: #fff;
 margin: 0;
 position: relative;
 top: -20px;
 width: 960px;
+}
+
 }
 #content {
 width: 660px;
