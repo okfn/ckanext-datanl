@@ -36,7 +36,7 @@ class DataNLPlugin(SingletonPlugin):
 
         # solr config
         config['search_backend'] = "solr"
-        config['solr_url'] = "http://localhost:8080/solr"
+        config['solr_url'] = "http://eu4-int.okfn.org:8080/solr/ckan"
 
         # default permissions
         config['ckan.default_roles.Package'] = \
