@@ -21,7 +21,6 @@ setup(
 	zip_safe=False,
 	install_requires=[
 		# -*- Extra requirements: -*-
-                'ckanext-solr'
 	],
 	entry_points=\
 	"""
