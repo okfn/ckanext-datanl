@@ -1,0 +1,134 @@
+/* ============= */
+/* =Overheid.nl= */
+/* ============= */
+
+
+body {
+}
+
+#wrapper {
+    margin: 0 auto 20px;
+    padding: 0;
+    width: 960px;
+    background: none;
+}
+
+#header {
+    background: white;
+    height: 171px;
+    position: relative;
+    padding-right: 20px;
+}
+
+#access {
+    position: absolute;
+    bottom: 78px;
+    background: black;
+    border: none;
+    border-top: 11px #E67C00 solid;
+}
+
+.menu {
+    height: 30px;
+    margin-left: 0!important;
+}
+
+.menu li a.active, .menu li a.active:hover {
+    background: #8698AC
+}
+
+#access .menu a {
+    line-height: 30px;
+    padding: 0 12px 0 11px;
+    font-weight: bold;
+    color: #fff;
+}
+
+#main {
+background: #fff;
+margin: 0;
+position: relative;
+top: -20px;
+width: 960px;
+}
+#content {
+width: 660px;
+}
+
+
+/* Sidebar */
+
+#primary .widget-container {
+background: #fff;
+border: none;
+}
+#primary .widget-container li {
+list-style-type: none;
+padding-left: 0;
+margin-left: 0;
+}
+
+#main .widget-area ul ul {
+list-style-type: none;
+padding-left: 0;
+margin-left: 0;
+}
+
+/* Footer */
+#footer {
+background: url("http://www.overheid.nl/images/footer.png") no-repeat scroll 100px 0 #D8DBE0;
+clear: both;
+color: #667799;
+border: none;
+margin: 0;
+}
+#footer ul {
+padding-left: 0;
+}
+#footer h3 {
+border: none;
+}
+
+/* General styles */
+
+h1, h2, h3, legend {
+color: #E67C00;
+}
+h1 span, h2 span {
+color: #667799;
+}
+h1, h2, legend {
+font-family: Arial,Helvetica,sans-serif;
+font-size: 1.6em;
+font-weight: normal;
+}
+h3 {
+border-bottom: 3px solid #FF8A00;
+clear: both;
+font-size: 1em;
+}
+h4, h5, h6 {
+color: #000000;
+font-size: 1em;
+}
+h2, legend, p, ul, dl, ol, code, pre, quoteblock {
+margin-bottom: 15px;
+}
+ul, ol {
+padding-left: 25px;
+}
+h3 span {
+color: #7F8181;
+font-weight: normal;
+margin-left: 5px;
+}
+p {
+clear: both;
+}
+a:link, a:active, a:visited {
+color: #154273;
+cursor: pointer;
+}
+a:hover {
+color: #000000;
+}
