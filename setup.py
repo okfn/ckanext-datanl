@@ -25,7 +25,7 @@ setup(
 	entry_points=\
 	"""
         [ckan.plugins]
-	datanl=ckanext.datanl:DataNLPlugin
+	datanl=ckanext.datanl.plugin:DataNLPlugin
 
         [ckan.forms]
         example_form = ckanext.datanl.package_form:get_example_fieldset
