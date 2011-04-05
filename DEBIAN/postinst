@@ -1,0 +1,10 @@
+#!/bin/sh
+set -e
+
+if ! [ -f /etc/ckan/datanl/datanl.ini ] ; then
+    echo "Creating the datanl instance..."
+    ckan-create-instance datanl nl.ckan.net register.data.overheid.nl
+    echo "done."
+    a2ensite datanl
+    /etc/init.d/apache2 reload
+fi 

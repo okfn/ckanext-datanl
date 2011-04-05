@@ -1,0 +1,12 @@
+Package: ckanext-datanl
+Version: 0.1~01
+Architecture: amd64
+Maintainer: Seb Bacon <seb.bacon@okfn.org>
+Installed-Size: 0
+Depends: python-ckan
+Recommends: apache2, libapache2-mod-wsgi, python-apachemiddleware, ckan, python-ckanext-solr
+Section: main/web
+Priority: extra
+Homepage: http://ckan.org
+Description: ckanext-datanl
+ Extensions for CKAN to run the CKAN part of data.nl
