@@ -27,18 +27,4 @@ class DataNLPlugin(SingletonPlugin):
                 config.get('extra_public_paths', '')])
         config['extra_template_paths'] = ','.join([template_dir,
                 config.get('extra_template_paths', '')])
-        # set the title and other standard bits
-        config['ckan.site_title'] = "Overheid.nl"
-        config['ckan.site_logo'] = "http://www.overheid.nl/presentatie/images/overheid.nl.png"
-        config['ckan.site_id'] = "nl.ckan.net"
-        config['lang'] = "nl"
-        config['ckan.site_url'] = ""
 
-        # solr config
-        config['search_backend'] = "solr"
-        #config['solr_url'] = "http://eu4-int.okfn.org:8080/solr/ckan"
-
-        # default permissions
-        config['ckan.default_roles.Package'] = \
-                 ('{"visitor": ["reader"], '
-                  '"logged_in": ["reader"]}')
